@@ -117,12 +117,12 @@ img {
   position: relative;
 }
 
-.active {
+.menu-list-link.active {
+  color: #404bbf;
 }
 
 .menu-list-link:hover,
-.menu-list-link:focus,
-.menu-list-link.active {
+.menu-list-link:focus {
   color: #404bbf;
 }
 
@@ -243,8 +243,7 @@ img {
 }
 
 .benefits-icon-container {
-  width: 64px;
-  height: 64px;
+  fill: #2e2f42;
 }
 
 .benefits-list-href {
@@ -423,6 +422,7 @@ img {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-logo-container {
@@ -433,6 +433,9 @@ img {
 
 .social-caption {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
 }
@@ -469,14 +472,10 @@ img {
 }
 
 .icon-container {
-  width: 16px;
-  height: 16px;
   fill: #fff;
 }
 
 .icon-container-footer {
-  width: 24px;
-  height: 24px;
   fill: #fff;
 }
 
